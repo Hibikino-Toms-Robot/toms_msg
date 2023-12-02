@@ -9,13 +9,15 @@ find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
-"msg/BoundingBox.msg"
-"msg/BoundingBoxes.msg"
+"msg/TomatoPos.msg"
+"msg/TomatoData.msg"
 )
 
 set(srv_files
 "srv/VisionService.srv"
 "srv/CartService.srv"
+"srv/ArmService.srv"
+"srv/EndEffectorService.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

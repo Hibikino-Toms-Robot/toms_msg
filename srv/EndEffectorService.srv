@@ -1,0 +1,3 @@
+bool task_start
+---
+bool task_done
