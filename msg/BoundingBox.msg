@@ -1,1 +1,0 @@
-int32[] tom_pos
