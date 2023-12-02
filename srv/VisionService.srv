@@ -1,5 +1,0 @@
-string task
----
-bool detect_check
-std_msgs/Float32MultiArray target_pos 
-
